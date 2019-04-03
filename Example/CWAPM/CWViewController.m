@@ -7,7 +7,7 @@
 //
 
 #import "CWViewController.h"
-
+#import <CWAPM/CWPerformanceMonitor.h>
 @interface CWViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[CWPerformanceMonitorManager new] startMonitoring];
+    [[CWFPSMonitor sharedMonitor] startMonitoring];
 }
 
 - (void)didReceiveMemoryWarning

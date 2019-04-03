@@ -1,0 +1,6 @@
+framework module CWAPM {
+  umbrella header "CWAPM-umbrella.h"
+
+  export *
+  module * { export * }
+}

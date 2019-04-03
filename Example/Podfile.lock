@@ -1,0 +1,23 @@
+PODS:
+  - CWAPM (0.1.0):
+    - YYDispatchQueuePool
+  - YYDispatchQueuePool (1.0)
+
+DEPENDENCIES:
+  - CWAPM (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs:
+    - YYDispatchQueuePool
+
+EXTERNAL SOURCES:
+  CWAPM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CWAPM: 5430a40527013bcdc58d11775ab052d10164a415
+  YYDispatchQueuePool: 3dfb2274bcc74207688dde8ac6f7bdd46871dd7b
+
+PODFILE CHECKSUM: c186229e1a1a86d778d3f6bf91f4c26dbba74e0b
+
+COCOAPODS: 1.6.1
