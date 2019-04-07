@@ -42,7 +42,6 @@
 		73C3E5CD2D4AD323E855E0B5BC484174 /* CWCPUMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C5A21DCF4D9D404AE1C90B5A842F40 /* CWCPUMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74BB5071179A18F1A3657E86269FFEBB /* CWAppFluencyMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6290708ECABE7341BA0036F68ABD3B85 /* CWAppFluencyMonitor.m */; };
 		840587A88EA1E229A995DF9D17E916C1 /* YYDispatchQueuePool+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAE8DF037FC464BADFE602F625496C1 /* YYDispatchQueuePool+Block.m */; };
-		97920C5FE5C3965DE9C1CFF1A8D7996E /* cpuFreq.s in Sources */ = {isa = PBXBuildFile; fileRef = F01939456AB8542F8FD22531B0FDF0CC /* cpuFreq.s */; };
 		98BE8D7EFCD06CB6D8EB9E5220F44508 /* CWBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC29E2E30C65C41264A97BA8CBE9BCD /* CWBacktraceLogger.m */; };
 		BDA18B0463FB55058C794C80DF7E0B35 /* CWAsyncLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1CF81CB0BB264C172D540B779AA8C3 /* CWAsyncLabel.m */; };
 		C4FD3C25335D27905B219F9006D518A9 /* Pods-CWAPM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9A294C1AB955B42BD641F7D017AF68 /* Pods-CWAPM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,7 +93,7 @@
 		07D66B1EF16A4D8860D3709B20A37100 /* CWWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWWeakProxy.h; sourceTree = "<group>"; };
 		0BDA0EECBAE1BADE7F7E58A196F1F8F3 /* Pods-CWAPM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWAPM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EC908E85B69C527A598806F5AFE00E2 /* Pods-CWAPM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CWAPM_Example-dummy.m"; sourceTree = "<group>"; };
-		10281ADFE3F251254ACB949CF8717467 /* Pods_CWAPM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CWAPM_Tests.framework; path = "Pods-CWAPM_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10281ADFE3F251254ACB949CF8717467 /* Pods_CWAPM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CWAPM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		126BF1C8DD29FCD85A72D235D6408B4B /* CWAppMemoryUsage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWAppMemoryUsage.h; sourceTree = "<group>"; };
 		199B4A9C8A0101AF838CED9F5587A291 /* Pods-CWAPM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CWAPM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1CC49E979B1847FE46FD74407F35D46D /* CWFPSMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWFPSMonitor.h; sourceTree = "<group>"; };
@@ -104,12 +103,12 @@
 		2A2BB2B67E841FDC8E61CC76844801AC /* CWMemoryDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWMemoryDisplayView.h; sourceTree = "<group>"; };
 		32C440710F909E14ADD2031C5F2B909F /* Pods-CWAPM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CWAPM_Example-frameworks.sh"; sourceTree = "<group>"; };
 		33C06DD946C95FDDB83FF47605976CFE /* CWWWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CWWWeakProxy.m; sourceTree = "<group>"; };
-		344DB90A12CDFBD2656CA1E8D8F34BD6 /* YYDispatchQueuePool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYDispatchQueuePool.framework; path = YYDispatchQueuePool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		344DB90A12CDFBD2656CA1E8D8F34BD6 /* YYDispatchQueuePool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYDispatchQueuePool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38196D06D50FDEB7315D34444B5FFD8F /* CWPerformanceMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWPerformanceMonitor.h; path = CWAPM/Classes/CWPerformanceMonitor.h; sourceTree = "<group>"; };
 		3DFA55EAFAC0B8B43AF60BED23BFE884 /* Pods-CWAPM_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CWAPM_Example-Info.plist"; sourceTree = "<group>"; };
 		401C659AC87451913973DA4C83ED59A3 /* CWAPM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWAPM-dummy.m"; sourceTree = "<group>"; };
 		49A84C11AD76B005362D5AC0F471C8A4 /* Pods-CWAPM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CWAPM_Tests.modulemap"; sourceTree = "<group>"; };
-		4CE92813105B877DAF8023C3E9789867 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4CE92813105B877DAF8023C3E9789867 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		50FF846A899CD0DBCFEC01DC63BA5905 /* Pods-CWAPM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CWAPM_Example.modulemap"; sourceTree = "<group>"; };
 		534D691B09AC09052DBA092173B08083 /* Pods-CWAPM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWAPM_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5532E74FC0D9146F450692CDE4FFF7C5 /* YYDispatchQueuePool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYDispatchQueuePool.modulemap; sourceTree = "<group>"; };
@@ -122,19 +121,19 @@
 		6CC29E2E30C65C41264A97BA8CBE9BCD /* CWBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CWBacktraceLogger.m; sourceTree = "<group>"; };
 		6F85C94A7AD91113511A5F929C1329DB /* YYDispatchQueuePool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYDispatchQueuePool-umbrella.h"; sourceTree = "<group>"; };
 		70287F6615540C6880C38A3B0F609E7C /* Pods-CWAPM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CWAPM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		74B106CA6918527D838C340D214A3F13 /* Pods_CWAPM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CWAPM_Example.framework; path = "Pods-CWAPM_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B106CA6918527D838C340D214A3F13 /* Pods_CWAPM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CWAPM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8758CE8DAE66D5C5C96A94BB9BD98CA1 /* CWCPUDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWCPUDisplayView.h; sourceTree = "<group>"; };
 		8B237728E229568BAECC8CB9C39B4C15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		903C5A6F0B170B98831D3E54775D3774 /* CWPerformanceMonitorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWPerformanceMonitorManager.m; path = CWAPM/Classes/CWPerformanceMonitorManager.m; sourceTree = "<group>"; };
 		98682B946B8810501D0707A4A2EB3228 /* CWTopWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWTopWindow.h; sourceTree = "<group>"; };
 		9ACFD99EC23C1B0F8BE4A74671281F18 /* CWFPSDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWFPSDisplayView.h; sourceTree = "<group>"; };
 		9B552A67FEC6DE8333142C4968A2399E /* CWCPUDisplayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CWCPUDisplayView.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FFB1C248C9FED5496129AA3E7A5E057 /* Pods-CWAPM_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CWAPM_Tests-Info.plist"; sourceTree = "<group>"; };
 		A02EAF06399B67D30DDF91E2F9717F23 /* CWAppFluencyMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWAppFluencyMonitor.h; sourceTree = "<group>"; };
 		A58F7A2D555127B5FFF26FAAC78201C0 /* CWFPSDisplayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CWFPSDisplayView.m; sourceTree = "<group>"; };
-		AAA861B1F5EC0AA3462768ED6479AB06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AE06D0FD807BB1E4144817BEA04847B3 /* CWAPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CWAPM.framework; path = CWAPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA861B1F5EC0AA3462768ED6479AB06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AE06D0FD807BB1E4144817BEA04847B3 /* CWAPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CWAPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE166576FC2A27E79F6E8D09C3FF00DD /* Pods-CWAPM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWAPM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B028D900DA8C392C38671EE506B8BD24 /* CWGlobalTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CWGlobalTimer.h; sourceTree = "<group>"; };
 		B504D538697041C8643B3922D3E4622F /* Pods-CWAPM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWAPM_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,14 +145,13 @@
 		C90824FA286DB07C294187C1C309EB90 /* YYDispatchQueuePool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYDispatchQueuePool-dummy.m"; sourceTree = "<group>"; };
 		CA9A294C1AB955B42BD641F7D017AF68 /* Pods-CWAPM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CWAPM_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CD06CDAB62FC604740EFE4F394D30682 /* YYDispatchQueuePool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYDispatchQueuePool-prefix.pch"; sourceTree = "<group>"; };
-		CD8169D733BEBA2E0C524B9AB1AB248B /* CWAPM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CWAPM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD8169D733BEBA2E0C524B9AB1AB248B /* CWAPM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CWAPM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE1CF81CB0BB264C172D540B779AA8C3 /* CWAsyncLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CWAsyncLabel.m; sourceTree = "<group>"; };
 		CE3023C8D87F43CDAD48583C779EE693 /* CWPerformanceMonitorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWPerformanceMonitorManager.h; path = CWAPM/Classes/CWPerformanceMonitorManager.h; sourceTree = "<group>"; };
 		D1B19C53AB80367DE564A028B005E121 /* CWAPM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWAPM.xcconfig; sourceTree = "<group>"; };
 		E7117D731768D4095AE1B5DF4DD247DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EDAE8DF037FC464BADFE602F625496C1 /* YYDispatchQueuePool+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYDispatchQueuePool+Block.m"; sourceTree = "<group>"; };
 		EDC4C145B2CDB6009B760BAF19B1E2A0 /* Pods-CWAPM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CWAPM_Example-umbrella.h"; sourceTree = "<group>"; };
-		F01939456AB8542F8FD22531B0FDF0CC /* cpuFreq.s */ = {isa = PBXFileReference; includeInIndex = 1; path = cpuFreq.s; sourceTree = "<group>"; };
 		F2D4E92B5E74E3230FFEC9318894D96A /* YYDispatchQueuePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDispatchQueuePool.h; path = YYDispatchQueuePool/YYDispatchQueuePool.h; sourceTree = "<group>"; };
 		F352BB9EF2E75272EBDD478C86FA535F /* YYDispatchQueuePool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYDispatchQueuePool.xcconfig; sourceTree = "<group>"; };
 		FA07B1C4203C5188C03E3F0C56D3743D /* CWAPM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CWAPM.modulemap; sourceTree = "<group>"; };
@@ -205,7 +203,6 @@
 				B75CA4F831C6AAA2D81F1EEDD2696869 /* CWBacktraceLogger.h */,
 				6CC29E2E30C65C41264A97BA8CBE9BCD /* CWBacktraceLogger.m */,
 			);
-			name = Backtrace;
 			path = Backtrace;
 			sourceTree = "<group>";
 		};
@@ -215,7 +212,6 @@
 				9ACFD99EC23C1B0F8BE4A74671281F18 /* CWFPSDisplayView.h */,
 				A58F7A2D555127B5FFF26FAAC78201C0 /* CWFPSDisplayView.m */,
 			);
-			name = UI;
 			path = UI;
 			sourceTree = "<group>";
 		};
@@ -262,7 +258,6 @@
 				07D66B1EF16A4D8860D3709B20A37100 /* CWWeakProxy.h */,
 				33C06DD946C95FDDB83FF47605976CFE /* CWWWeakProxy.m */,
 			);
-			name = Timer;
 			path = Timer;
 			sourceTree = "<group>";
 		};
@@ -321,7 +316,6 @@
 				B885BFD5706F4FD62692C93F431E0BC3 /* YYDispatchQueuePool.m */,
 				BCF55DAE122C1E3407F778F6C5F8EB4C /* Support Files */,
 			);
-			name = YYDispatchQueuePool;
 			path = YYDispatchQueuePool;
 			sourceTree = "<group>";
 		};
@@ -331,7 +325,6 @@
 				2A2BB2B67E841FDC8E61CC76844801AC /* CWMemoryDisplayView.h */,
 				B819A5703AAE60CB5D83CF921EDE83FB /* CWMemoryDisplayView.m */,
 			);
-			name = UI;
 			path = UI;
 			sourceTree = "<group>";
 		};
@@ -372,7 +365,6 @@
 		BFB9148C8EEB7BCA675B3ED37DD1530D /* CPU */ = {
 			isa = PBXGroup;
 			children = (
-				F01939456AB8542F8FD22531B0FDF0CC /* cpuFreq.s */,
 				B6C5A21DCF4D9D404AE1C90B5A842F40 /* CWCPUMonitor.h */,
 				5AEAEC4FE103CA359BE50C866B8761E9 /* CWCPUMonitor.m */,
 				E76C72090AAAF878DC9D6A1EBFF34FC3 /* UI */,
@@ -437,7 +429,6 @@
 				8758CE8DAE66D5C5C96A94BB9BD98CA1 /* CWCPUDisplayView.h */,
 				9B552A67FEC6DE8333142C4968A2399E /* CWCPUDisplayView.m */,
 			);
-			name = UI;
 			path = UI;
 			sourceTree = "<group>";
 		};
@@ -447,7 +438,6 @@
 				64352EBD6A264AA510301F27E78461F6 /* YYDispatchQueuePool+Block.h */,
 				EDAE8DF037FC464BADFE602F625496C1 /* YYDispatchQueuePool+Block.m */,
 			);
-			name = GCD;
 			path = GCD;
 			sourceTree = "<group>";
 		};
@@ -482,7 +472,6 @@
 				98682B946B8810501D0707A4A2EB3228 /* CWTopWindow.h */,
 				1FD52C79C51FDAB4186FF63B7A081503 /* CWTopWindow.m */,
 			);
-			name = UI;
 			path = UI;
 			sourceTree = "<group>";
 		};
@@ -639,6 +628,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -698,7 +688,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97920C5FE5C3965DE9C1CFF1A8D7996E /* cpuFreq.s in Sources */,
 				23C30FFF93CFA4B9A4CDE92E7A85CBA4 /* CWAPM-dummy.m in Sources */,
 				74BB5071179A18F1A3657E86269FFEBB /* CWAppFluencyMonitor.m in Sources */,
 				12F24F1178BAD5C279E41AA6B9DF69B9 /* CWAppMemoryUsage.m in Sources */,
@@ -817,8 +806,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

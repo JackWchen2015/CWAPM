@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @return MHz
  */
-+(CGFloat)GetCPUFrequency;
+//+(CGFloat)GetCPUFrequency;
 
 @property(nonatomic,strong)NSString* cpuTypeString;
 @property(nonatomic,strong)NSString* cpuSubtypeString;
