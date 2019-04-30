@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CWAPM'
-  s.version="0.1.5"
+  s.version="0.1.6"
   s.summary          = 'APP Performance Monitor'
   s.description      = 'APP性能监控'
   s.homepage         = 'https://github.com/JackWchen2015/CWAPM'
