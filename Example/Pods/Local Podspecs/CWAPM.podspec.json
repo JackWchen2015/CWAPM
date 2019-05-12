@@ -1,6 +1,6 @@
 {
   "name": "CWAPM",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "APP Performance Monitor",
   "description": "简单的APM",
   "homepage": "https://github.com/JackWchen2015/CWAPM",
@@ -13,13 +13,17 @@
   },
   "source": {
     "git": "https://github.com/JackWchen2015/CWAPM.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
+  "source_files": "NAME_OF_POD/Classes/**/*.{h,m}",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CWAPM/Classes/**/*.{h,m,s}",
-  "public_header_files": "CWAPM/Classes/**/*.{h}",
+  "public_header_files": "NAME_OF_POD/Classes/*.h",
+  "requires_arc": true,
+  "ios": {
+    "vendored_frameworks": "NAME_OF_POD/CWAPM.framework"
+  },
   "dependencies": {
     "YYDispatchQueuePool": [
 
