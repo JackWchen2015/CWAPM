@@ -1,5 +1,5 @@
 PODS:
-  - CWAPM (0.1.1):
+  - CWAPM (0.1.7):
     - YYDispatchQueuePool
   - YYDispatchQueuePool (1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CWAPM: 1a151cfe759a345928295754f87f9b341c26d20f
+  CWAPM: ac55f388adc737921f5cc9b988bb4425233bf579
   YYDispatchQueuePool: 3dfb2274bcc74207688dde8ac6f7bdd46871dd7b
 
 PODFILE CHECKSUM: c186229e1a1a86d778d3f6bf91f4c26dbba74e0b

@@ -76,5 +76,8 @@
     _count = 0;
     [self.displayer updateFPS: (int)round(fps)];
 }
-
+-(void)testFunction
+{
+    NSLog(@"test");
+}
 @end

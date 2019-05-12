@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)startMonitoring;
 - (void)stopMonitoring;
+-(void)testFunction;
 @end
 
 NS_ASSUME_NONNULL_END
