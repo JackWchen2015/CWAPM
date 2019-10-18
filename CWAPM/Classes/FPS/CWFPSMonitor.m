@@ -14,7 +14,7 @@
 @property (nonatomic, assign) NSUInteger count;
 @property (nonatomic, assign) BOOL isMonitoring;
 @property (nonatomic, assign) NSTimeInterval lastTime;
-@property (nonatomic, assign) CWFPSDisplayView * displayer;
+@property (nonatomic, strong) CWFPSDisplayView * displayer;
 @property (nonatomic, strong) CADisplayLink * displayLink;
 @end
 
@@ -75,9 +75,5 @@
     double fps = _count / delta;
     _count = 0;
     [self.displayer updateFPS: (int)round(fps)];
-}
--(void)testFunction
-{
-    NSLog(@"test");
 }
 @end

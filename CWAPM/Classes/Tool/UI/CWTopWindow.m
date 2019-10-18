@@ -8,6 +8,7 @@
 
 #import "CWTopWindow.h"
 
+
 @implementation CWTopWindow
 
 static CWTopWindow * cw_top_window;
@@ -39,12 +40,10 @@ static CWTopWindow * cw_top_window;
     return [[self class] topWindow];
 }
 
-
 - (instancetype)initWithFrame: (CGRect)frame {
     if (self = [super initWithFrame: frame]) {
         [super setUserInteractionEnabled: NO];
         [super setWindowLevel: CGFLOAT_MAX];
-        
         self.rootViewController = [UIViewController new];
         [self makeKeyAndVisible];
     }

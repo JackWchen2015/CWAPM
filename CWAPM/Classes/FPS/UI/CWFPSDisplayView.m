@@ -9,7 +9,7 @@
 #import "CWFPSDisplayView.h"
 #import "CWAsyncLabel.h"
 #import "YYDispatchQueuePool+Block.h"
-#define CW_FPS_DISPLAYER_SIZE CGSizeMake(54, 20)
+
 
 
 @interface CWFPSDisplayView()
@@ -25,10 +25,10 @@
 }
 */
 - (instancetype)initWithFrame: (CGRect)frame {
-    if (self = [super initWithFrame: CGRectMake((CGRectGetWidth([UIScreen mainScreen].bounds) - CW_FPS_DISPLAYER_SIZE.width) / 2, 30, CW_FPS_DISPLAYER_SIZE.width, CW_FPS_DISPLAYER_SIZE.height)]) {
+    if (self = [super initWithFrame: frame]) {
         CAShapeLayer * bgLayer = [CAShapeLayer layer];
         bgLayer.fillColor = [UIColor colorWithWhite: 0 alpha: 0.7].CGColor;
-        bgLayer.path = [UIBezierPath bezierPathWithRoundedRect: CGRectMake(0, 0, CW_FPS_DISPLAYER_SIZE.width, CW_FPS_DISPLAYER_SIZE.height) cornerRadius: 5].CGPath;
+        bgLayer.path = [UIBezierPath bezierPathWithRoundedRect: CGRectMake(0, 0, 60, 20) cornerRadius: 5].CGPath;
         [self.layer addSublayer: bgLayer];
         
         self.displayerLabel = [[CWAsyncLabel alloc] initWithFrame: self.bounds];

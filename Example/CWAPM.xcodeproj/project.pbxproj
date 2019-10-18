@@ -330,6 +330,8 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CWAPM_Example/Pods-CWAPM_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CWAPM/CWAPM.framework",
+				"${BUILT_PRODUCTS_DIR}/GPUUtilization/GPUUtilization.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YYDispatchQueuePool/YYDispatchQueuePool.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -337,6 +339,8 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CWAPM.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUUtilization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYDispatchQueuePool.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

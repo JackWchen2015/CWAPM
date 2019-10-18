@@ -12,4 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.public_header_files ='CWAPM/Classes/**/*.h'
   s.dependency 'YYDispatchQueuePool'
+  s.dependency 'GPUUtilization'
+  s.dependency 'Masonry'
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 end

@@ -1,6 +1,10 @@
 PODS:
-  - CWAPM (0.1.7):
+  - CWAPM (0.1.10):
+    - GPUUtilization
+    - Masonry
     - YYDispatchQueuePool
+  - GPUUtilization (0.5.0)
+  - Masonry (1.1.0)
   - YYDispatchQueuePool (1.0)
 
 DEPENDENCIES:
@@ -8,6 +12,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - GPUUtilization
+    - Masonry
     - YYDispatchQueuePool
 
 EXTERNAL SOURCES:
@@ -15,7 +21,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CWAPM: ac55f388adc737921f5cc9b988bb4425233bf579
+  CWAPM: 895fe12d2624a8c1a460c457695a355671f3e1d0
+  GPUUtilization: cf389b280c631d8e78680c1613ab3cf46fb0600e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YYDispatchQueuePool: 3dfb2274bcc74207688dde8ac6f7bdd46871dd7b
 
 PODFILE CHECKSUM: c186229e1a1a86d778d3f6bf91f4c26dbba74e0b

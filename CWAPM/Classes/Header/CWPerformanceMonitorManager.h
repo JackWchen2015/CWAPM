@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CWPerformanceMonitorManager : NSObject
++(instancetype)sharedInstance;
 - (void)startMonitoring;
 - (void)stopMonitoring;
 @end

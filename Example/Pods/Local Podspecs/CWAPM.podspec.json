@@ -1,6 +1,6 @@
 {
   "name": "CWAPM",
-  "version": "0.1.7",
+  "version": "0.1.10",
   "summary": "APP Performance Monitor",
   "description": "APP性能监控",
   "homepage": "https://github.com/JackWchen2015/CWAPM",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JackWchen2015/CWAPM.git",
-    "tag": "0.1.7"
+    "tag": "0.1.10"
   },
   "source_files": "CWAPM/Classes/**/*.{h,m}",
   "platforms": {
@@ -23,6 +23,15 @@
   "dependencies": {
     "YYDispatchQueuePool": [
 
+    ],
+    "GPUUtilization": [
+
+    ],
+    "Masonry": [
+
     ]
+  },
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
   }
 }
