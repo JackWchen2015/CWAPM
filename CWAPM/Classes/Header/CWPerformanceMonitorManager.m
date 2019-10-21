@@ -14,7 +14,6 @@
 #import "CWTopWindow.h"
 #import "CWMemoryDisplayView.h"
 #import "CWAppMemoryUsage.h"
-#import <Masonry/Masonry.h>
 #import "CWFPSDisplayView.h"
 #import "CWWeakProxy.h"
 #import "CWAppFluencyMonitor.h"

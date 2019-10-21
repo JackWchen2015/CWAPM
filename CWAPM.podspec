@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CWAPM'
-  s.version="0.1.10"
+  s.version="0.1.14"
   s.summary          = 'APP Performance Monitor'
   s.description      = 'APP性能监控'
   s.homepage         = 'https://github.com/JackWchen2015/CWAPM'
@@ -12,7 +12,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.public_header_files ='CWAPM/Classes/**/*.h'
   s.dependency 'YYDispatchQueuePool'
-  s.dependency 'GPUUtilization'
-  s.dependency 'Masonry'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 end
