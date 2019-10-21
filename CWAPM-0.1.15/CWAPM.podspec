@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "CWAPM"
-  s.version = "0.1.11"
+  s.version = "0.1.15"
   s.summary = "APP Performance Monitor"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"JackWchen2015"=>"576734302@qq.com"}
